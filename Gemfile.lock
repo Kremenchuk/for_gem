@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/Kremenchuk/my_first_gem.git
-  revision: d05a6b027c3c46b9d6c1e24b8f2d38db2c8121e5
+  revision: 080f4bb1940137ca9bc9056f8fa63e4f62bcb844
   specs:
     my_first_gem_kremenchuk (0.1.0)
 
@@ -44,7 +44,7 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    arel (7.0.0)
+    arel (7.1.0)
     builder (3.2.2)
     byebug (9.0.5)
     coffee-rails (4.2.1)
@@ -62,7 +62,7 @@ GEM
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
-    jbuilder (2.5.0)
+    jbuilder (2.6.0)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
     jquery-rails (4.1.1)
@@ -88,7 +88,7 @@ GEM
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
     pkg-config (1.1.7)
-    puma (3.4.0)
+    puma (3.6.0)
     rack (2.0.1)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -120,7 +120,7 @@ GEM
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     sass (3.4.22)
-    sass-rails (5.0.5)
+    sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
       sass (~> 3.1)
       sprockets (>= 2.8, < 4.0)
@@ -133,7 +133,7 @@ GEM
     spring-watcher-listen (2.0.0)
       listen (>= 2.7, < 4.0)
       spring (~> 1.2)
-    sprockets (3.6.3)
+    sprockets (3.7.0)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
     sprockets-rails (3.1.1)

@@ -1,5 +1,6 @@
 class MyMenuController < ApplicationController
+
   def index
-    my_gem_def
+    @asd = MyFirstGem.asd
   end
 end
