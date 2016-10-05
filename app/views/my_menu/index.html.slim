@@ -1,3 +1,6 @@
 h1 MyMenu
 p Find me in app/views/my_menu/index.html.erb
-p= @asd
+-if $exchanger_modules_to_sidebar.present?
+  -$exchanger_modules_to_sidebar.each do |add_menu|
+    p
+      = link_to "#{add_menu[:title]}", send("#{add_menu[:gem].to_s}_path")
