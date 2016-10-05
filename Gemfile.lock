@@ -1,16 +1,19 @@
 GIT
   remote: git://github.com/Kremenchuk/-my_first_gem.git
-  revision: d2daedeefb7af64b0dca96c901e9610e9aa55089
+  revision: bb828aee281838d2ec682a44e0ff556b7ab74a95
   specs:
     my_first_gem (0.1.0)
+      haml
       rails (~> 5.0.0, >= 5.0.0.1)
 
 GIT
   remote: git://github.com/Kremenchuk/second_gem.git
-  revision: 27ed5d8890616d8e0580041469766a217cc66089
+  revision: 73f6a5ab2731fc7e6323b8f53cf494a8b54f6c98
   specs:
     blorgh (0.1.0)
-      rails
+      haml
+      rails (~> 5.0.0, >= 5.0.0.1)
+      sqlite3
 
 GEM
   remote: https://rubygems.org/
@@ -69,6 +72,8 @@ GEM
     ffi (1.9.14)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
+    haml (4.0.7)
+      tilt
     i18n (0.7.0)
     jbuilder (2.6.0)
       activesupport (>= 3.0.0, < 5.1)
@@ -175,6 +180,7 @@ DEPENDENCIES
   blorgh!
   byebug
   coffee-rails (~> 4.2)
+  haml
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
