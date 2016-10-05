@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'slim'
-gem 'my_first_gem', github: 'Kremenchuk/my_first_gem'
+gem 'my_first_gem', github: 'Kremenchuk/-my_first_gem'
 gem 'blorgh', github: 'Kremenchuk/second_gem'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

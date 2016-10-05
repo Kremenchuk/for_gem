@@ -1,10 +1,9 @@
 GIT
-  remote: git://github.com/Kremenchuk/my_first_gem.git
-  revision: 5c8c705b882b39648e0507e66f3ce7f949156d65
+  remote: git://github.com/Kremenchuk/-my_first_gem.git
+  revision: d2daedeefb7af64b0dca96c901e9610e9aa55089
   specs:
     my_first_gem (0.1.0)
-      activesupport
-      rails
+      rails (~> 5.0.0, >= 5.0.0.1)
 
 GIT
   remote: git://github.com/Kremenchuk/second_gem.git
