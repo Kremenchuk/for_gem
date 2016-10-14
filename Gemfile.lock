@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/Kremenchuk/-my_first_gem.git
-  revision: bb828aee281838d2ec682a44e0ff556b7ab74a95
+  revision: 86c787dec3a69dae40807a037cb97609862fc1d2
   specs:
     my_first_gem (0.1.0)
       haml
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/Kremenchuk/second_gem.git
-  revision: e790a155339796e8898c50da6aca320abd27559c
+  revision: d9c559f6fe431a78c9cf3173bd4471fe7fe86322
   specs:
     blorgh (0.1.0)
       haml
